@@ -1,7 +1,6 @@
 .DS_Store
 .swiftpm/
 .build/
-.vscode/
 
 # Xcode
 xcuserdata/
@@ -15,8 +14,6 @@ playground.xcworkspace
 wwdc/
 
 # Secrets
-.env
-.env.*
 *.pem
 *.p12
 *.p8
@@ -33,3 +30,9 @@ models/*/.venv/
 models/*/build*/
 models/*/checkpoint*
 models/*/convert*.log
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
+node_modules
